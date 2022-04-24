@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body{\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\nheader{\\n  display:flex;\\n  flex-direction: row;\\n  align-items: center;\\n  gap : 10px;\\n}\\n\\nnav ul{\\n  display:flex;\\n  flex-direction: row;\\n  list-style: none;\\n  margin: 0;\\n  padding: 0;\\n  gap: 10px;\\n}\\n\\nnav li{\\n  padding:3px;\\n}\\n\\nhr{\\n  width: 100%;\\n  border: 1px solid rgb(0, 0, 0);\\n}\\n#content{\\n  width: 100vw;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  gap: 10px;\\n}\\n\\n#title{\\n  text-align: center;\\n}\\n\\n#description{\\n  width: 50vw;\\n}\\n\\n.selected{\\n  text-decoration: underline;\\n}\\n\\nheader a:hover{\\n  text-decoration: underline;\\n  cursor: pointer;\\n  \\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* basic */\\nbody{\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n*{\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n  font-family: Arial, Helvetica, sans-serif;\\n}\\n\\n#content{\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: flex-start;\\n  align-items: center;\\n  height:100vh;\\n\\n}\\n\\n/* header */\\n\\nheader{\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center;\\n  justify-content: center;\\n  width: 100vw;\\n  height: 10vh;\\n  background-color: #296e01;\\n  border-bottom: 2px solid black;\\n}\\n\\n#headerContainer{\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center;\\n  justify-content: space-between;\\n  width: min(500px, 100vw);\\n  padding: 1em;\\n}\\n\\n#logo{\\n  font-family: \\\"IBM Plex Mono\\\", monospace;\\n  color: white;\\n  font-size: 2em;\\n}\\n\\nnav ul{\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center;\\n  justify-content: space-between;\\n  gap: 1em;\\n}\\n\\nnav a{\\n  text-decoration: none;\\n  color: white;\\n}\\n\\n.selected{\\n  border-bottom: 1px solid white;\\n}\\n\\n/* footer */\\n\\nfooter{\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center;\\n  justify-content: center;\\n  width: 100vw;\\n  height: 5vh;\\n  background-color: #296e01;\\n  border-top: 2px solid black;\\n}\\n\\nfooter p{\\n  color: white;\\n  font-size: 0.8em;\\n}\\n\\n/* all content */\\n\\n#main{\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: flex-start;\\n  flex-grow:1;\\n}\\n\\nh1{\\n  font-family: \\\"IBM Plex Mono\\\", monospace;\\n  font-size: 2em;\\n  margin-top: 1em;\\n}\\n\\nh2{\\n  font-family: \\\"IBM Plex Mono\\\", monospace;\\n  font-size: 1.5em;\\n  margin-top: 1em;\\n}\\n\\nh3{\\n  font-family: \\\"IBM Plex Mono\\\", monospace;\\n  font-size: 1.2em;\\n  margin-top: 1em;\\n  margin-bottom: .2em;\\n}\\n\\n/* home */\\n\\n#description{\\n  width: 50vw;\\n  text-align: center;\\n  margin-top: 1em;\\n}\\n\\n#hours{\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n} \\n\\n/* menu */\\n\\n.foodContainer{\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n  width: 50vw;\\n  border: 1px solid black;\\n  margin: .5em;\\n  padding: .5em;\\n}\\n\\n.foodContainer img{\\n  width: 60%;\\n  margin-bottom: 1em;\\n}\\n\\n/* contact */\\n\\n#contactDescription{\\n  width: 50vw;\\n  text-align: center;\\n  margin-top: 1em;\\n}\\n\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,33 +110,43 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/contact.js":
-/*!************************!*\
-  !*** ./src/contact.js ***!
-  \************************/
+/***/ "./src/contact/contact.js":
+/*!********************************!*\
+  !*** ./src/contact/contact.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Elem{\n  constructor(blockType,content, id){\n    this.type = blockType;\n    this.content = content;\n    this.id = id;\n  }\n}\n\nclass Contact{\n  #anchor;\n  #title;\n  #description;\n  #hoursTitle;\n  #hours;\n  #locationTitle;\n  #location;\n  #beforeHours;\n  #afterHours;\n\n  constructor(anchor){\n    this.#anchor = anchor;\n    this.#title = \"Contact\";\n    this.#description = \"Et labore reprehenderit id reprehenderit laboris consequat. Ullamco sint incididunt ea duis consequat laboris dolore anim ipsum Lorem. Ex laborum qui dolor eu nulla laborum occaecat et minim minim officia. Exercitation aute tempor anim mollit incididunt excepteur aliqua. Ex labore incididunt fugiat voluptate proident dolor minim proident veniam do.\"\n    this.#hoursTitle = \"Hours\";\n    this.#hours = [\"Mon-Thur 10am - 10pm\", \"Fri-Sat 10am - 11pm\", \"Sun 1pm - 10pm\"];\n    this.#locationTitle = \"Location\";\n    this.#location = \"123 main street, anywhere, usa 12345\";\n    this.#beforeHours = [new Elem(\"h1\",this.#title,\"title\"),new Elem(\"p\", this.#description,\"description\"),new Elem(\"h2\", this.#hoursTitle, \"hoursTitle\")];\n    this.#afterHours = [new Elem(\"h2\", this.#locationTitle, \"locationTitle\"),new Elem(\"p\",this.#location, \"location\")];\n  }\n\n  make(){\n    for (const elem of this.#beforeHours){\n      this.#anchor.appendChild(document.createElement(elem.type));\n      this.#anchor.lastChild.textContent = elem.content;\n      this.#anchor.lastChild.id = elem.id;\n    }\n    this.#anchor.appendChild(document.createElement(\"ul\"));\n    const hoursListElement = this.#anchor.lastChild;\n    for (const hour of this.#hours){\n      hoursListElement.appendChild(document.createElement(\"li\"));\n      hoursListElement.lastChild.textContent = hour;\n    }\n    for (const elem of this.#afterHours){\n      this.#anchor.appendChild(document.createElement(elem.type));\n      this.#anchor.lastChild.textContent = elem.content;\n      this.#anchor.lastChild.id = elem.id;\n    }\n  }\n  clear(){\n    while (this.#anchor.firstChild) {\n      this.#anchor.removeChild(this.#anchor.firstChild);\n    }\n  }\n\n}\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);\n\n//# sourceURL=webpack://restaurant/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _contactdata_yaml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contactdata.yaml */ \"./src/contact/contactdata.yaml\");\n/* harmony import */ var _page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../page */ \"./src/page.js\");\n\n\n\nclass Contact extends _page__WEBPACK_IMPORTED_MODULE_1__[\"default\"] {\n  constructor(mainElement){\n    super(mainElement, _contactdata_yaml__WEBPACK_IMPORTED_MODULE_0__)\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);\n\n//# sourceURL=webpack://restaurant/./src/contact/contact.js?");
 
 /***/ }),
 
-/***/ "./src/header.js":
-/*!***********************!*\
-  !*** ./src/header.js ***!
-  \***********************/
+/***/ "./src/footer/footer.js":
+/*!******************************!*\
+  !*** ./src/footer/footer.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\nclass Header {\n  #headerElement;\n  links;\n  constructor(contentElement){\n    this.#headerElement = contentElement;\n    this.links = [\"Home\", \"Menu\", \"Contact\"];\n    \n  }\n  make(){\n    this.#headerElement.appendChild(document.createElement(\"p\"));\n    this.#headerElement.lastChild.id = \"logo\";\n    this.#headerElement.lastChild.textContent = \"Byte Café\";\n    this.#headerElement.appendChild(document.createElement(\"nav\"));\n    this.#headerElement.lastChild.appendChild(document.createElement(\"ul\"));\n    const navList = this.#headerElement.lastChild.lastChild;\n    for (const link of this.links){\n      navList.appendChild(document.createElement(\"li\"));\n      navList.lastChild.id = link;\n      navList.lastChild.appendChild(document.createElement(\"a\"));\n      navList.lastChild.lastChild.textContent = link;\n      navList.lastChild.lastChild.id = `${link}Link`;\n    }\n  }\n  clear(){\n    while (this.#headerElement.firstChild) {\n      this.#headerElement.removeChild(this.#headerElement.firstChild);\n    }\n  }\n  styleActiveTabButton(tabName){\n    for (const link of this.links){\n      document.getElementById(`${link}Link`).classList.remove(\"selected\");\n    }\n    document.getElementById(tabName).classList.add(\"selected\");\n  }\n  returnButtonElements(){\n    return this.#headerElement.querySelectorAll(\"a\");\n  }\n\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n//# sourceURL=webpack://restaurant/./src/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _footerdata_yaml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footerdata.yaml */ \"./src/footer/footerdata.yaml\");\n/* harmony import */ var _page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../page */ \"./src/page.js\");\n\n\n\nclass Footer extends _page__WEBPACK_IMPORTED_MODULE_1__[\"default\"]{\n  constructor(mainElement){\n    super(mainElement, _footerdata_yaml__WEBPACK_IMPORTED_MODULE_0__)\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n//# sourceURL=webpack://restaurant/./src/footer/footer.js?");
 
 /***/ }),
 
-/***/ "./src/home.js":
-/*!*********************!*\
-  !*** ./src/home.js ***!
-  \*********************/
+/***/ "./src/header/header.js":
+/*!******************************!*\
+  !*** ./src/header/header.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Elem{\n  constructor(blockType,content, id){\n    this.type = blockType;\n    this.content = content;\n    this.id = id;\n  }\n}\n\nclass Home{\n  #mainElement;\n  #title;\n  #description;\n  #hoursTitle;\n  #hours;\n  #locationTitle;\n  #location;\n  #beforeHours;\n  #afterHours;\n\n  constructor(mainElement){\n    this.#mainElement = mainElement;\n    this.#title = \"Byte Café\";\n    this.#description = \"Et labore reprehenderit id reprehenderit laboris consequat. Ullamco sint incididunt ea duis consequat laboris dolore anim ipsum Lorem. Ex laborum qui dolor eu nulla laborum occaecat et minim minim officia. Exercitation aute tempor anim mollit incididunt excepteur aliqua. Ex labore incididunt fugiat voluptate proident dolor minim proident veniam do.\"\n    this.#hoursTitle = \"Hours\";\n    this.#hours = [\"Mon-Thur 10am - 10pm\", \"Fri-Sat 10am - 11pm\", \"Sun 1pm - 10pm\"];\n    this.#locationTitle = \"Location\";\n    this.#location = \"123 main street, anywhere, usa 12345\";\n    this.#beforeHours = [new Elem(\"h1\",this.#title,\"title\"),new Elem(\"p\", this.#description,\"description\"),new Elem(\"h2\", this.#hoursTitle, \"hoursTitle\")];\n    this.#afterHours = [new Elem(\"h2\", this.#locationTitle, \"locationTitle\"),new Elem(\"p\",this.#location, \"location\")];\n  }\n\n  make(){\n    for (const elem of this.#beforeHours){\n      this.#mainElement.appendChild(document.createElement(elem.type));\n      this.#mainElement.lastChild.textContent = elem.content;\n      this.#mainElement.lastChild.id = elem.id;\n    }\n    this.#mainElement.appendChild(document.createElement(\"ul\"));\n    const hoursListElement = this.#mainElement.lastChild;\n    for (const hour of this.#hours){\n      hoursListElement.appendChild(document.createElement(\"li\"));\n      hoursListElement.lastChild.textContent = hour;\n    }\n    for (const elem of this.#afterHours){\n      this.#mainElement.appendChild(document.createElement(elem.type));\n      this.#mainElement.lastChild.textContent = elem.content;\n      this.#mainElement.lastChild.id = elem.id;\n    }\n  }\n  clear(){\n    while (this.#mainElement.firstChild) {\n      this.#mainElement.removeChild(this.#mainElement.firstChild);\n    }\n  }\n\n}\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n//# sourceURL=webpack://restaurant/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Header {\n  #headerElement;\n  links;\n  constructor(contentElement){\n    this.#headerElement = contentElement;\n    this.links = [\"Home\", \"Menu\", \"Contact\"];\n    \n  }\n  make(){\n    const headerContainer = document.createElement(\"div\");\n    headerContainer.id = \"headerContainer\";\n    this.#headerElement.appendChild(headerContainer);\n    headerContainer.appendChild(document.createElement(\"p\"));\n    headerContainer.lastChild.id = \"logo\";\n    headerContainer.lastChild.innerHTML = \"Byte&nbsp;Café\";\n    headerContainer.appendChild(document.createElement(\"nav\"));\n    headerContainer.lastChild.appendChild(document.createElement(\"ul\"));\n    const navList = headerContainer.lastChild.lastChild;\n    for (const link of this.links){\n      navList.appendChild(document.createElement(\"li\"));\n      navList.lastChild.id = link;\n      navList.lastChild.appendChild(document.createElement(\"a\"));\n      navList.lastChild.lastChild.textContent = link;\n      navList.lastChild.lastChild.id = `${link}Link`;\n    }\n  }\n  clear(){\n    while (this.#headerElement.firstChild) {\n      this.#headerElement.removeChild(this.#headerElement.firstChild);\n    }\n  }\n  styleActiveTabButton(tabName){\n    for (const link of this.links){\n      document.getElementById(`${link}Link`).classList.remove(\"selected\");\n    }\n    document.getElementById(tabName).classList.add(\"selected\");\n  }\n  returnButtonElements(){\n    return this.#headerElement.querySelectorAll(\"a\");\n  }\n\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n//# sourceURL=webpack://restaurant/./src/header/header.js?");
+
+/***/ }),
+
+/***/ "./src/home/home.js":
+/*!**************************!*\
+  !*** ./src/home/home.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _homedata_yaml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homedata.yaml */ \"./src/home/homedata.yaml\");\n/* harmony import */ var _page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../page */ \"./src/page.js\");\n\n\n\nclass Home extends _page__WEBPACK_IMPORTED_MODULE_1__[\"default\"]{\n  constructor(mainElement){\n    super(mainElement, _homedata_yaml__WEBPACK_IMPORTED_MODULE_0__)\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n//# sourceURL=webpack://restaurant/./src/home/home.js?");
 
 /***/ }),
 
@@ -146,17 +156,77 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n\n\nclass Main {\n  homePage;\n  menuPage;\n  constructor(){\n    //Hook element def\n    const contentElement = document.getElementById(\"content\");\n    const headerElement = document.createElement(\"header\");\n    const mainElement = document.createElement(\"div\");\n    //Add id\n    headerElement.id = \"header\";\n    mainElement.id = \"main\";\n\n    //Rig to DOM\n    contentElement.appendChild(headerElement);\n    contentElement.appendChild(document.createElement(\"hr\"))\n    contentElement.appendChild(mainElement);\n\n    this.header = new _header__WEBPACK_IMPORTED_MODULE_1__[\"default\"](headerElement);\n    this.homePage = new _home__WEBPACK_IMPORTED_MODULE_2__[\"default\"](mainElement);\n    this.menuPage = new _menu__WEBPACK_IMPORTED_MODULE_3__[\"default\"](mainElement);\n    this.contactPage = new _contact__WEBPACK_IMPORTED_MODULE_4__[\"default\"](mainElement);\n    this.header.make()\n    this.header.returnButtonElements().forEach(elem => elem.addEventListener(\"click\", this.switchTab.bind(this)))\n    this.homePage.make()\n  }\n  clear(){\n    this.homePage.clear()\n    this.menuPage.clear()\n    this.contactPage.clear()\n  }\n  switchTab(e) {\n    switch (e.target.id) {\n      case \"HomeLink\":\n        this.clear();\n        this.homePage.make();\n      break;\n  \n      case \"MenuLink\":\n        this.clear();\n        this.menuPage.make();\n      break;\n      \n      case \"ContactLink\":\n        this.clear();\n        this.contactPage.make()\n      break;\n\n    }\n    this.header.styleActiveTabButton(e.target.id);\n  }\n}\n\nconst mainObject = new Main();\n\n\n\n\n\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header/header */ \"./src/header/header.js\");\n/* harmony import */ var _home_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home/home */ \"./src/home/home.js\");\n/* harmony import */ var _menu_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu/menu */ \"./src/menu/menu.js\");\n/* harmony import */ var _contact_contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact/contact */ \"./src/contact/contact.js\");\n/* harmony import */ var _footer_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer/footer */ \"./src/footer/footer.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\n\n\n\nclass Main {\n  homePage;\n  menuPage;\n  constructor(){\n    //Hook element def\n    const contentElement = document.getElementById(\"content\");\n    const headerElement = document.createElement(\"header\");\n    const mainElement = document.createElement(\"div\");\n    const footerElement = document.createElement(\"footer\");\n    //Add id\n    headerElement.id = \"header\";\n    mainElement.id = \"main\";\n    footerElement.id = \"footer\";\n\n    //Rig to DOM\n    contentElement.appendChild(headerElement);\n    contentElement.appendChild(mainElement);\n    contentElement.appendChild(footerElement);\n\n    this.header = new _header_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"](headerElement);\n    this.homePage = new _home_home__WEBPACK_IMPORTED_MODULE_1__[\"default\"](mainElement);\n    this.menuPage = new _menu_menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"](mainElement);\n    this.contactPage = new _contact_contact__WEBPACK_IMPORTED_MODULE_3__[\"default\"](mainElement);\n    this.footer = new _footer_footer__WEBPACK_IMPORTED_MODULE_4__[\"default\"](footerElement);\n    this.header.make()\n    this.header.returnButtonElements().forEach(elem => elem.addEventListener(\"click\", this.switchTab.bind(this)))\n    this.homePage.make()\n    this.footer.make()\n  }\n  clear(){\n    this.homePage.clear()\n    this.menuPage.clear()\n    this.contactPage.clear()\n  }\n  switchTab(e) {\n    switch (e.target.id) {\n      case \"HomeLink\":\n        this.clear();\n        this.homePage.make();\n      break;\n  \n      case \"MenuLink\":\n        this.clear();\n        this.menuPage.make();\n      break;\n      \n      case \"ContactLink\":\n        this.clear();\n        this.contactPage.make()\n      break;\n\n    }\n    this.header.styleActiveTabButton(e.target.id);\n  }\n}\n\nconst mainObject = new Main();\n\n\n\n\n\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/menu.js":
+/***/ "./src/menu/menu.js":
+/*!**************************!*\
+  !*** ./src/menu/menu.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _menudata_yaml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menudata.yaml */ \"./src/menu/menudata.yaml\");\n/* harmony import */ var _page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../page */ \"./src/page.js\");\n/* harmony import */ var _assets_Egg_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/Egg.jpeg */ \"./src/menu/assets/Egg.jpeg\");\n\n\n\nconst imageDict = {\"egg\":_assets_Egg_jpeg__WEBPACK_IMPORTED_MODULE_2__}\n\nclass Menu extends _page__WEBPACK_IMPORTED_MODULE_1__[\"default\"] {\n  constructor(mainElement){\n    super(mainElement, _menudata_yaml__WEBPACK_IMPORTED_MODULE_0__, imageDict)\n  }\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://restaurant/./src/menu/menu.js?");
+
+/***/ }),
+
+/***/ "./src/page.js":
 /*!*********************!*\
-  !*** ./src/menu.js ***!
+  !*** ./src/page.js ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Elem{\n  constructor(blockType,content, id){\n    this.type = blockType;\n    this.content = content;\n    this.id = id;\n  }\n}\n\nclass Menu{\n  #anchor;\n  #title;\n  #description;\n  #hoursTitle;\n  #hours;\n  #locationTitle;\n  #location;\n  #beforeHours;\n  #afterHours;\n\n  constructor(anchor){\n    this.#anchor = anchor;\n    this.#title = \"Menu\";\n    this.#description = \"Et labore reprehenderit id reprehenderit laboris consequat. Ullamco sint incididunt ea duis consequat laboris dolore anim ipsum Lorem. Ex laborum qui dolor eu nulla laborum occaecat et minim minim officia. Exercitation aute tempor anim mollit incididunt excepteur aliqua. Ex labore incididunt fugiat voluptate proident dolor minim proident veniam do.\"\n    this.#hoursTitle = \"Hours\";\n    this.#hours = [\"Mon-Thur 10am - 10pm\", \"Fri-Sat 10am - 11pm\", \"Sun 1pm - 10pm\"];\n    this.#locationTitle = \"Location\";\n    this.#location = \"123 main street, anywhere, usa 12345\";\n    this.#beforeHours = [new Elem(\"h1\",this.#title,\"title\"),new Elem(\"p\", this.#description,\"description\"),new Elem(\"h2\", this.#hoursTitle, \"hoursTitle\")];\n    this.#afterHours = [new Elem(\"h2\", this.#locationTitle, \"locationTitle\"),new Elem(\"p\",this.#location, \"location\")];\n  }\n\n  make(){\n    for (const elem of this.#beforeHours){\n      this.#anchor.appendChild(document.createElement(elem.type));\n      this.#anchor.lastChild.textContent = elem.content;\n      this.#anchor.lastChild.id = elem.id;\n    }\n    this.#anchor.appendChild(document.createElement(\"ul\"));\n    const hoursListElement = this.#anchor.lastChild;\n    for (const hour of this.#hours){\n      hoursListElement.appendChild(document.createElement(\"li\"));\n      hoursListElement.lastChild.textContent = hour;\n    }\n    for (const elem of this.#afterHours){\n      this.#anchor.appendChild(document.createElement(elem.type));\n      this.#anchor.lastChild.textContent = elem.content;\n      this.#anchor.lastChild.id = elem.id;\n    }\n  }\n  clear(){\n    while (this.#anchor.firstChild) {\n      this.#anchor.removeChild(this.#anchor.firstChild);\n    }\n  }\n\n}\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://restaurant/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Page{\n  #mainElement;\n  #data;\n  #targetElement;\n  #parentElement;\n  #imageSrcDict\n\n  constructor(mainElement, data, imageSrcDict){\n    this.#mainElement = mainElement;\n    this.#targetElement = mainElement;\n    this.#parentElement = mainElement.parentElement;\n    this.#data = data;\n    this.#imageSrcDict = imageSrcDict;\n  }\n\n  make(){\n    this.#data.forEach(this.renderTag.bind(this))\n  }\n  clear(){\n    while (this.#mainElement.firstChild) {\n      this.#mainElement.removeChild(this.#mainElement.firstChild);\n    }\n  }\n  renderTag(elem){\n    this.#targetElement.appendChild(document.createElement(elem.tag));\n    if (elem.text !== null && elem.text !== undefined){\n      this.#targetElement.lastChild.textContent = elem.text;\n    }\n    if (elem.id !== null && elem.id !== undefined){\n      this.#targetElement.lastChild.id = elem.id;\n    }\n    if (elem.className !== null && elem.className !== undefined){\n      this.#targetElement.lastChild.className = elem.className;\n    }\n    if (elem.src !== null && elem.src !== undefined){\n      this.#targetElement.lastChild.setAttribute(\"src\", this.#imageSrcDict[elem.src]);\n    }\n    if (\"content\" in elem){\n      this.#parentElement = this.#targetElement;\n      this.#targetElement = this.#targetElement.lastChild;\n      elem.content.forEach(this.renderTag.bind(this))\n      this.#targetElement = this.#parentElement;\n    }\n  }\n\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Page);\n\n//# sourceURL=webpack://restaurant/./src/page.js?");
+
+/***/ }),
+
+/***/ "./src/menu/assets/Egg.jpeg":
+/*!**********************************!*\
+  !*** ./src/menu/assets/Egg.jpeg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c7f26edea5e0207b3019.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/menu/assets/Egg.jpeg?");
+
+/***/ }),
+
+/***/ "./src/contact/contactdata.yaml":
+/*!**************************************!*\
+  !*** ./src/contact/contactdata.yaml ***!
+  \**************************************/
+/***/ ((module) => {
+
+eval("module.exports = JSON.parse('[{\"tag\":\"h1\",\"text\":\"Contact\",\"id\":\"contactTitle\"},{\"tag\":\"p\",\"text\":\"In nostrud deserunt occaecat quis eu sint. Pariatur consequat consectetur duis elit est. Non sunt laborum do culpa veniam dolor dolore cupidatat tempor id commodo voluptate. Quis enim laboris cillum magna enim.\",\"id\":\"contactDescription\"},{\"tag\":\"h2\",\"text\":\"Event Contact\",\"id\":\"eventTitle\"},{\"tag\":\"p\",\"text\":\"Amet voluptate in sit aliquip aliquip nisi velit.\",\"id\":\"eventContact\"},{\"tag\":\"h2\",\"text\":\"Catering Contact\",\"id\":\"caterTitle\"},{\"tag\":\"p\",\"text\":\"Amet voluptate in sit aliquip aliquip nisi velit.\",\"id\":\"caterContact\"}]');\n\n//# sourceURL=webpack://restaurant/./src/contact/contactdata.yaml?");
+
+/***/ }),
+
+/***/ "./src/footer/footerdata.yaml":
+/*!************************************!*\
+  !*** ./src/footer/footerdata.yaml ***!
+  \************************************/
+/***/ ((module) => {
+
+eval("module.exports = JSON.parse('[{\"tag\":\"p\",\"text\":\"This is made by Zach\",\"id\":\"footer\"}]');\n\n//# sourceURL=webpack://restaurant/./src/footer/footerdata.yaml?");
+
+/***/ }),
+
+/***/ "./src/home/homedata.yaml":
+/*!********************************!*\
+  !*** ./src/home/homedata.yaml ***!
+  \********************************/
+/***/ ((module) => {
+
+eval("module.exports = JSON.parse('[{\"tag\":\"h1\",\"text\":\"Byte Café\",\"id\":\"homeTitle\"},{\"tag\":\"p\",\"text\":\"Excepteur elit culpa sit incididunt duis occaecat officia qui dolor commodo deserunt aliquip dolor. Laborum excepteur anim et laborum aute sint ut aliquip est exercitation veniam laboris voluptate consectetur. In nostrud deserunt occaecat quis eu sint. Pariatur consequat consectetur duis elit est. Non sunt laborum do culpa veniam dolor dolore cupidatat tempor id commodo voluptate. Quis enim laboris cillum magna enim.\",\"id\":\"description\"},{\"tag\":\"h2\",\"text\":\"Hours\",\"id\":\"hoursTitle\"},{\"tag\":\"ul\",\"text\":null,\"id\":\"hours\",\"content\":[{\"tag\":\"li\",\"text\":\"Monday-Thursday: 10am - 10pm\",\"id\":null},{\"tag\":\"li\",\"text\":\"Friday-Saturday: 10am - 11pm\",\"id\":null},{\"tag\":\"li\",\"text\":\"Sunday: 1pm - 10pm\",\"id\":null}]},{\"tag\":\"h2\",\"text\":\"Location\",\"id\":\"locationTitle\"},{\"tag\":\"p\",\"text\":\"123 main street, anywhere, usa, 12345\",\"id\":\"location\"}]');\n\n//# sourceURL=webpack://restaurant/./src/home/homedata.yaml?");
+
+/***/ }),
+
+/***/ "./src/menu/menudata.yaml":
+/*!********************************!*\
+  !*** ./src/menu/menudata.yaml ***!
+  \********************************/
+/***/ ((module) => {
+
+eval("module.exports = JSON.parse('[{\"tag\":\"h1\",\"text\":\"Menu\",\"id\":\"title\"},{\"tag\":\"h2\",\"text\":\"Breakfast\",\"id\":\"breakfast\"},{\"tag\":\"div\",\"className\":\"foodContainer\",\"content\":[{\"tag\":\"h3\",\"text\":\"Eggs\",\"className\":\"foodTitle\"},{\"tag\":\"p\",\"text\":\"Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.\",\"className\":\"foodDescription\"}]},{\"tag\":\"div\",\"className\":\"foodContainer\",\"content\":[{\"tag\":\"h3\",\"text\":\"Eggs\",\"className\":\"foodTitle\"},{\"tag\":\"img\",\"className\":\"foodImage\",\"src\":\"egg\"},{\"tag\":\"p\",\"text\":\"Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.\",\"className\":\"foodDescription\"}]},{\"tag\":\"div\",\"className\":\"foodContainer\",\"content\":[{\"tag\":\"h3\",\"text\":\"Eggs\",\"className\":\"foodTitle\"},{\"tag\":\"p\",\"text\":\"Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.\",\"className\":\"foodDescription\"}]},{\"tag\":\"h2\",\"text\":\"Drinks\",\"id\":\"Drinks\"},{\"tag\":\"div\",\"className\":\"foodContainer\",\"content\":[{\"tag\":\"h3\",\"text\":\"Coffee\",\"className\":\"foodTitle\"},{\"tag\":\"p\",\"text\":\"Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.\",\"className\":\"foodDescription\"}]},{\"tag\":\"div\",\"className\":\"foodContainer\",\"content\":[{\"tag\":\"h3\",\"text\":\"Coffee\",\"className\":\"foodTitle\"},{\"tag\":\"p\",\"text\":\"Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.\",\"className\":\"foodDescription\"}]},{\"tag\":\"div\",\"className\":\"foodContainer\",\"content\":[{\"tag\":\"h3\",\"text\":\"Coffee\",\"className\":\"foodTitle\"},{\"tag\":\"p\",\"text\":\"Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.\",\"className\":\"foodDescription\"}]}]');\n\n//# sourceURL=webpack://restaurant/./src/menu/menudata.yaml?");
 
 /***/ })
 
@@ -211,6 +281,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +307,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
