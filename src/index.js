@@ -1,8 +1,9 @@
+import Header from "./header/header";
+import Home from "./home/home";
+import Menu from "./menu/menu";
+import Contact from "./contact/contact";
+import Footer from "./footer/footer";
 import "./style.css";
-import Header from "./header";
-import Home from "./home";
-import Menu from "./menu";
-import Contact from "./contact";
 
 class Main {
   homePage;
@@ -12,22 +13,26 @@ class Main {
     const contentElement = document.getElementById("content");
     const headerElement = document.createElement("header");
     const mainElement = document.createElement("div");
+    const footerElement = document.createElement("footer");
     //Add id
     headerElement.id = "header";
     mainElement.id = "main";
+    footerElement.id = "footer";
 
     //Rig to DOM
     contentElement.appendChild(headerElement);
-    contentElement.appendChild(document.createElement("hr"))
     contentElement.appendChild(mainElement);
+    contentElement.appendChild(footerElement);
 
     this.header = new Header(headerElement);
     this.homePage = new Home(mainElement);
     this.menuPage = new Menu(mainElement);
     this.contactPage = new Contact(mainElement);
+    this.footer = new Footer(footerElement);
     this.header.make()
     this.header.returnButtonElements().forEach(elem => elem.addEventListener("click", this.switchTab.bind(this)))
     this.homePage.make()
+    this.footer.make()
   }
   clear(){
     this.homePage.clear()

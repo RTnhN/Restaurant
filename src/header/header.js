@@ -1,4 +1,3 @@
-import "./style.css";
 class Header {
   #headerElement;
   links;
@@ -8,12 +7,15 @@ class Header {
     
   }
   make(){
-    this.#headerElement.appendChild(document.createElement("p"));
-    this.#headerElement.lastChild.id = "logo";
-    this.#headerElement.lastChild.textContent = "Byte Café";
-    this.#headerElement.appendChild(document.createElement("nav"));
-    this.#headerElement.lastChild.appendChild(document.createElement("ul"));
-    const navList = this.#headerElement.lastChild.lastChild;
+    const headerContainer = document.createElement("div");
+    headerContainer.id = "headerContainer";
+    this.#headerElement.appendChild(headerContainer);
+    headerContainer.appendChild(document.createElement("p"));
+    headerContainer.lastChild.id = "logo";
+    headerContainer.lastChild.innerHTML = "Byte&nbsp;Café";
+    headerContainer.appendChild(document.createElement("nav"));
+    headerContainer.lastChild.appendChild(document.createElement("ul"));
+    const navList = headerContainer.lastChild.lastChild;
     for (const link of this.links){
       navList.appendChild(document.createElement("li"));
       navList.lastChild.id = link;

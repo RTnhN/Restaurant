@@ -1,0 +1,24 @@
+- tag: h1
+  text: Contact
+  id: contactTitle
+
+- tag: p
+  text: In nostrud deserunt occaecat quis eu sint. Pariatur consequat consectetur duis elit est. Non sunt laborum do culpa veniam dolor dolore cupidatat tempor id commodo voluptate. Quis enim laboris cillum magna enim.
+  id: contactDescription
+
+- tag: h2
+  text: Event Contact
+  id: eventTitle
+
+- tag: p
+  text: Amet voluptate in sit aliquip aliquip nisi velit.
+  id: eventContact
+
+- tag: h2
+  text: Catering Contact
+  id: caterTitle
+
+- tag: p
+  text: Amet voluptate in sit aliquip aliquip nisi velit.
+  id: caterContact
+

@@ -1,4 +1,7 @@
 const path = require("path");
+const yamljs = require('yamljs');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 
 module.exports = {
   mode: "development",
@@ -6,6 +9,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
   module: {
     rules: [
@@ -21,9 +25,26 @@ module.exports = {
       test:/\.(woff|woff2|eot|ttf|otf)$/i,
       type: "asset/resource",
     },
+      {
+        test:/\.yaml$/i,
+        type:'json',
+        parser:{
+          parse: yamljs.parse,
+        },
+      },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "Output Management",
+      template: "src/index.html",
+    }),
 
+  ],
+
+  
 
 
 };
+
+

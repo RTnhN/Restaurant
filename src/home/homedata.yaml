@@ -1,0 +1,33 @@
+- tag: h1
+  text: Byte Café
+  id: homeTitle
+
+- tag: p
+  text: Excepteur elit culpa sit incididunt duis occaecat officia qui dolor commodo deserunt aliquip dolor. Laborum excepteur anim et laborum aute sint ut aliquip est exercitation veniam laboris voluptate consectetur. In nostrud deserunt occaecat quis eu sint. Pariatur consequat consectetur duis elit est. Non sunt laborum do culpa veniam dolor dolore cupidatat tempor id commodo voluptate. Quis enim laboris cillum magna enim.
+  id: description
+
+- tag: h2
+  text: Hours
+  id: hoursTitle
+
+- tag: ul
+  text: 
+  id: hours
+  content:
+    - tag: li
+      text: "Monday-Thursday: 10am - 10pm"
+      id: 
+    - tag: li
+      text: "Friday-Saturday: 10am - 11pm"
+      id:
+    - tag: li
+      text: "Sunday: 1pm - 10pm"
+      id:
+- tag: h2
+  text: Location
+  id: locationTitle
+- tag: p
+  text: 123 main street, anywhere, usa, 12345
+  id: location
+    
+

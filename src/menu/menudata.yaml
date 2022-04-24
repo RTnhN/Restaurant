@@ -1,0 +1,76 @@
+- tag: h1
+  text: Menu
+  id: title
+
+- tag: h2
+  text: Breakfast
+  id: breakfast
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Eggs
+      className: foodTitle
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Eggs
+      className: foodTitle
+    - tag: img
+      className: foodImage
+      src: egg  
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Eggs
+      className: foodTitle
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+- tag: h2
+  text: Drinks
+  id: Drinks
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Coffee
+      className: foodTitle
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Coffee
+      className: foodTitle
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Coffee
+      className: foodTitle
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+
