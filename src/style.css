@@ -41,7 +41,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: min(500px, 100vw);
+  width: min(800px, 100vw);
   padding: 1em;
 }
 
