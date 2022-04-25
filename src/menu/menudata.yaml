@@ -5,26 +5,18 @@
 - tag: h2
   text: Breakfast
   id: breakfast
+  className: menuSubtitle
+
 
 - tag: div
   className: foodContainer
   content:
     - tag: h3
-      text: Eggs
-      className: foodTitle
-    - tag: p
-      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
-      className: foodDescription
-
-- tag: div
-  className: foodContainer
-  content:
-    - tag: h3
-      text: Eggs
+      text: Ipsum lorem
       className: foodTitle
     - tag: img
       className: foodImage
-      src: egg  
+      src: eggToast
     - tag: p
       text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
       className: foodDescription
@@ -33,8 +25,24 @@
   className: foodContainer
   content:
     - tag: h3
-      text: Eggs
+      text: Ipsum lorem
       className: foodTitle
+    - tag: img
+      className: foodImage
+      src: frenchToast
+    - tag: p
+      text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
+      className: foodDescription
+
+- tag: div
+  className: foodContainer
+  content:
+    - tag: h3
+      text: Ipsum lorem
+      className: foodTitle
+    - tag: img
+      className: foodImage
+      src: pancakes
     - tag: p
       text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
       className: foodDescription
@@ -42,13 +50,17 @@
 - tag: h2
   text: Drinks
   id: Drinks
+  className: menuSubtitle
 
 - tag: div
   className: foodContainer
   content:
     - tag: h3
-      text: Coffee
+      text: Ipsum lorem
       className: foodTitle
+    - tag: img
+      className: foodImage
+      src: coffee
     - tag: p
       text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
       className: foodDescription
@@ -57,8 +69,11 @@
   className: foodContainer
   content:
     - tag: h3
-      text: Coffee
+      text: Ipsum lorem
       className: foodTitle
+    - tag: img
+      className: foodImage
+      src: latte
     - tag: p
       text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
       className: foodDescription
@@ -67,8 +82,11 @@
   className: foodContainer
   content:
     - tag: h3
-      text: Coffee
+      text: Ipsum lorem
       className: foodTitle
+    - tag: img
+      className: foodImage
+      src: iceCoffee
     - tag: p
       text: Labore aute id commodo est et ex est aliqua labore dolore dolore aliqua dolor.Veniam tempor officia sunt nisi sunt culpa ipsum deserunt aute elit sit incididunt.
       className: foodDescription
